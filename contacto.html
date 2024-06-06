@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Indie+Flower&family=Lora:ital,wght@0,400..700;1,400..700&family=Marcellus&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Portafolio Camila Ossandón</title>
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <div class="todo">
+    <section class="menu">
+        <header class="menu__header">
+            <img class="menu__vector" src="assets\vector.png">
+            <h3 class="menu__title">Cami Bird</h3>
+        </header>
+        <nav class="menu__list__todo">
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="index.html">Home</a></li>
+                <li class="menu__list__item"><a href="sobre_mi.html">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="skills.html">Skills</a></li>
+                <li class="menu__list__item"><a href="soft-skills.html">Soft Skills</li>
+                <li class="menu__list__item" id="menu__list__hobbies"><a href="hobbies.html">Hobbies</a></li>
+                <li class="menu__list__item"><a href="formacion-academica.html">Formación</a></li>
+                <li class="menu__list__item"><a href="experiencia.html">Proyectos</a></li>
+                <li class="menu__list__item"><a href="contacto.html">Contáctame</a></li>
+            </ul>
+        </nav>
+    </section>
+
+        <!-- Sección de Contacto -->
+        <section class="formcontacto" id="contacto">
+            <div  class="formcontacto__contacto">
+                <div class="formcontacto__contacto__seccion">
+                    <img class="formcontacto__img" src="assets\contact_image.png">
+                </div>
+                <div class="formcontacto__text">
+                    <h2 class="formcontacto__title">CONTACTO</h2>
+                    <h3 class="formcontacto__subtext">Para ponernos en contacto, rellene el formulario y me comunicaré con usted. </h3>
+                    <form class="formcontacto__form" name="form">
+                        <input class="formcontacto__input" id="nombre" type="text" name="nombre" placeholder="Nombre" required>
+                        <input class="formcontacto__input" id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input class="formcontacto__input" id="asunto" type="text" name="asunto" placeholder="Asunto" required>
+                        <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                        <button type="submit" class="formcontacto__boton">ENVIAR MENSAJE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <script src="validacion.js"></script>
+</body>
+</html>
